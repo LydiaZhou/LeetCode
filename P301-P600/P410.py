@@ -21,7 +21,6 @@ class Solution(object):
             curSum = 0
             for i in range(index, len(nums) - 1):
                 curSum += nums[i]
-
                 tryVal = max(curSum, bfs(i + 1, localM - 1))
                 if tryVal < minVal:
                     minVal = tryVal
