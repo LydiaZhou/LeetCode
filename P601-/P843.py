@@ -31,7 +31,6 @@ class Solution:
 
 
 
-
 if __name__ == '__main__':
     wordlist = set()
     while len(wordlist) != 100:
